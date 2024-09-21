@@ -5,7 +5,7 @@ This is a simple **React.js** website that allows users to view workout plans an
 
 ## Features
 1. **Workout Dropdown**: Choose between "Arms," "Chest & Back," and "Legs" to display specific exercises, sets, and repetitions.
-2. **Cinematics Dropdown**: Select from three different videos ("Anime 1," "Anime 2," "Carti") to play embedded YouTube videos.
+2. **Cinematics Dropdown**: Select from three different videos to play embedded YouTube videos.
 3. **Image Overlay**: A clickable image (an eye) that flips between an open and closed state.
 4. **YouTube Video Player**: A YouTube player embedded using the YouTube Iframe API, with custom video controls and autoplay options.
 5. **Workout Details**: Displays selected workout exercises with corresponding sets and reps.
