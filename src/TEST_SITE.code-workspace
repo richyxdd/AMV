@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../AMV"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TEST_SITE"
+	}
+}

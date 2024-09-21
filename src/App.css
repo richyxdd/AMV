@@ -1,0 +1,138 @@
+
+/* Sidebar styling */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/* Sidebar headings */
+.sidenav h1 {
+  padding: 6px 8px 6px 16px;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+/* Sidebar headings and dropdown button hover effect */
+.sidenav h1:hover, .dropbtn:hover {
+  background-color: #f1f1f1;
+  transition: background 300ms ease-in-out;
+}
+/* Dropdown button styling */
+.dropbtn {
+  padding: 6px 8px 6px 16px;
+  font-size: 22px;
+  font-family: 'poppins';
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: block;
+  background-color: #262626;
+  position: relative;
+  z-index: 1;
+  transition: max-height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+/* Dropdown menu open state */
+.dropdown.open {
+  max-height: 200px; 
+  opacity: 1; 
+}
+
+.video-player {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  width:1250px;
+  height: 680px;
+  
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+/* Dropdown items styling */
+.dropdown p {
+  color: #818181;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 300ms ease-in-out;
+}
+/* Dropdown items hover effect */
+.dropdown p:hover {
+  background-color: #ddd;
+  font-family: 'poppins';
+  transition: background 300ms ease-in-out;
+}
+
+.workout-details {
+  position: absolute; /* Change to absolute */
+  top: 150px;/* Space from top */
+  left: 20px; /* Space from left */
+  color: #ddd;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  z-index: 10; /* Ensure it is above the video */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 20px;
+  margin: 0;
+}
+
+.exercise-item {
+  margin: 15px 10px; /* Space between items */
+  font-size: 22px; /* Font size */
+}
+
+.exercise-name {
+  font-weight: bold; /* Make exercise name bold */
+}
+
+.sets-reps {
+  color: #555; /* Darker color for sets and reps */
+  padding: 10px;
+  font-size: 22px; /* Slightly smaller font size */
+  
+}
+
+.eyething {
+  padding: 10px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.174);
+  position: absolute;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  bottom:0;
+  right: 0;
+  z-index: 3;
+}
